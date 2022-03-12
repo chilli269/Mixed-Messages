@@ -19,7 +19,7 @@ const createMessage=now=>{
                 sentence=sentence+nouns[Math.floor(Math.random()*nouns.length)]+'.';
             }
         }
-        sentence[0].toUpperCase();
+        sentence=sentence.charAt(0).toUpperCase() + sentence.slice(1);
         return sentence;
     }
     else{

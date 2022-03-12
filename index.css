@@ -1,0 +1,25 @@
+html{
+    background-color:rgb(20, 19, 19);
+}
+h3{
+    color: wheat;
+    font-size: 4.5vw;
+}
+#b{
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+}
+#m{
+    text-align: center;
+    width: 100vw;
+    height: 20vh;
+}
+h3{
+    margin-top: 20vh;
+}
+button{
+    margin-top: 14vh;
+    background-color: wheat;
+    font-size: 4vw;
+}

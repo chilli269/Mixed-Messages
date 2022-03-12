@@ -27,8 +27,7 @@ const createMessage=now=>{
     }
     
 }
-createMessage(numOfWords());
 const logMessage=()=>{
-    console.log(createMessage(numOfWords()));
+    document.getElementById("logMessage").innerHTML=createMessage(numOfWords());
 }
-logMessage();
+

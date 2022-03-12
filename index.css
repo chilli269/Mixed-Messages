@@ -1,3 +1,7 @@
+*{
+    margin:0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 html{
     background-color:rgb(20, 19, 19);
 }
@@ -7,19 +11,36 @@ h3{
 }
 #b{
     width: 100vw;
-    height: 20vh;
+    height: 30vh;
     text-align: center;
 }
 #m{
     text-align: center;
     width: 100vw;
-    height: 20vh;
+    height: 35vh;
 }
 h3{
     margin-top: 20vh;
+}
+#madeby{
+    font-size: 3vh;
+    text-align: center;
+    color: rgb(141, 127, 102);
 }
 button{
     margin-top: 14vh;
     background-color: wheat;
     font-size: 4vw;
+}
+@media only screen and (max-width:767px){
+    h3{
+        margin:20vh 5vw;
+        font-size: 7vw;
+    }
+    button{
+        margin-top: 14vh;
+        background-color: wheat;
+        font-size: 6vw;
+    }
+    
 }

@@ -30,4 +30,3 @@ const createMessage=now=>{
 const logMessage=()=>{
     document.getElementById("logMessage").innerHTML=createMessage(numOfWords());
 }
-
